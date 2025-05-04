@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>项目演示 | 朱昱菲</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #1a1a1a;
+    }
+
+    header {
+      background-color: #0c1f3f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #cbd6e2;
+    }
+
+    header .back-home {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 1rem;
+      color: white;
+      text-decoration: none;
+      background-color: #0c7bff;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header .back-home:hover {
+      background-color: #0956a0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-top: 2rem;
+    }
+
+    .video-container {
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    video {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .description {
+      margin: 2rem;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    a {
+      color: #0c7bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 4rem;
+    }
+
+    .section .video-container {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="back-home">返回首页</a>
+    <h1>项目演示 | 朱昱菲</h1>
+    <p>朱昱菲 | 复旦大学 | 自主开发展示</p>
+  </header>
+
+  <main>
+    <!-- NLP 项目展示 -->
+    <h2 class="section-title">📽️ NLP 问答系统</h2>
+    <div class="video-container">
+      <video controls>
+        <source src="project_demo.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签。
+      </video>
+    </div>
+    <div class="description">
+      <p>
+        该项目是我开发的一个基于人工智能的微信小程序，旨在为宠物主人提供个性化的养宠建议。通过集成自然语言处理技术，小程序能够理解用户的提问，并根据宠物的品种、年龄、健康状况等信息，生成科学的饲养方案和健康管理建议。
+      </p>
+    </div>
+
+    <!-- 新增的 C 语言寻宝小游戏展示 -->
+    <section class="section">
+      <h2 class="section-title">🎮 C语言开发的寻宝小游戏</h2>
+      <div class="video-container">
+        <video controls>
+          <source src="treasure-hunt-demo.mp4" type="video/mp4">
+          您的浏览器不支持 video 标签。
+        </video>
+      </div>
+      <div class="description">
+        <p>
+          该项目是我使用 C 语言开发的一个简单的寻宝小游戏。游戏中玩家需要通过输入指令在地图上寻找隐藏的宝藏，游戏结合了随机数生成、数组操作以及基本的控制逻辑，展示了我的编程能力和对算法的理解。
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 朱昱菲 | 联系方式：13789113057@163.com
+  </footer>
+</body>
+</html>
